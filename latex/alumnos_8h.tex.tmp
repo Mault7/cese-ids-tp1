@@ -13,13 +13,12 @@ Include dependency graph for alumnos.\+h\+:
 \begin{DoxyCompactItemize}
 \item 
 struct \hyperlink{structalumno__s}{alumno\+\_\+s}
-\begin{DoxyCompactList}\small\item\em Estructura que guarda los datos de un alumno. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em structura que guarda los datos de un alumno \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Typedefs}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{alumnos_8h_a7ecf0f1c2bcbe176c4728702b992994e}\label{alumnos_8h_a7ecf0f1c2bcbe176c4728702b992994e}} 
 typedef struct \hyperlink{structalumno__s}{alumno\+\_\+s} $\ast$ \hyperlink{alumnos_8h_a7ecf0f1c2bcbe176c4728702b992994e}{alumno\+\_\+t}
-\begin{DoxyCompactList}\small\item\em Estructura que guarda los datos de un alumno. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em structura que guarda los datos de un alumno \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -30,9 +29,8 @@ bool \hyperlink{alumnos_8h_a04d0b9e50c126d1507f936f7d51b98f1}{Serializar\+Alumno
 \subsection*{Variables}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{alumnos_8h_ac069805169418a8efebf22c025e195c5}\label{alumnos_8h_ac069805169418a8efebf22c025e195c5}} 
-const \hyperlink{alumnos_8h_a7ecf0f1c2bcbe176c4728702b992994e}{alumno\+\_\+t} {\bfseries A\+L\+U\+M\+N\+OS} \mbox{[}$\,$\mbox{]}
-\item 
+const \hyperlink{alumnos_8h_a7ecf0f1c2bcbe176c4728702b992994e}{alumno\+\_\+t} \hyperlink{alumnos_8h_ac069805169418a8efebf22c025e195c5}{A\+L\+U\+M\+N\+OS} \mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em Declaracion de varaibles globales. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{alumnos_8h_a3e0b22baac6dc7d0cf8e13559d500ba8}\label{alumnos_8h_a3e0b22baac6dc7d0cf8e13559d500ba8}} 
 const int {\bfseries C\+A\+N\+T\+I\+D\+A\+D\+\_\+\+A\+L\+U\+M\+N\+OS}
 \end{DoxyCompactItemize}
@@ -44,6 +42,28 @@ archivo donde se declaran prototipo de funciones para manejar los datos dele alu
 \begin{DoxyVersion}{Version}
 1.\+0.\+0 
 \end{DoxyVersion}
+
+
+\subsection{Typedef Documentation}
+\mbox{\Hypertarget{alumnos_8h_a7ecf0f1c2bcbe176c4728702b992994e}\label{alumnos_8h_a7ecf0f1c2bcbe176c4728702b992994e}} 
+\index{alumnos.\+h@{alumnos.\+h}!alumno\+\_\+t@{alumno\+\_\+t}}
+\index{alumno\+\_\+t@{alumno\+\_\+t}!alumnos.\+h@{alumnos.\+h}}
+\subsubsection{\texorpdfstring{alumno\+\_\+t}{alumno\_t}}
+{\footnotesize\ttfamily typedef struct \hyperlink{structalumno__s}{alumno\+\_\+s}$\ast$  \hyperlink{alumnos_8h_a7ecf0f1c2bcbe176c4728702b992994e}{alumno\+\_\+t}}
+
+
+
+structura que guarda los datos de un alumno 
+
+
+\begin{DoxyParams}{Parameters}
+{\em apellidos} & dato tipo caracter que almacena apellido \\
+\hline
+{\em nombres} & dato tipo caracter que almacena nombre \\
+\hline
+{\em documento} & dato tipo caracter que almacena documento \\
+\hline
+\end{DoxyParams}
 
 
 \subsection{Function Documentation}
@@ -93,3 +113,23 @@ funcion para mostrar a todos los datos del array de alumnos
 \begin{DoxyReturn}{Returns}
 retorna true cuando se logra imprimir los datos del alumno 
 \end{DoxyReturn}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{alumnos_8h_ac069805169418a8efebf22c025e195c5}\label{alumnos_8h_ac069805169418a8efebf22c025e195c5}} 
+\index{alumnos.\+h@{alumnos.\+h}!A\+L\+U\+M\+N\+OS@{A\+L\+U\+M\+N\+OS}}
+\index{A\+L\+U\+M\+N\+OS@{A\+L\+U\+M\+N\+OS}!alumnos.\+h@{alumnos.\+h}}
+\subsubsection{\texorpdfstring{A\+L\+U\+M\+N\+OS}{ALUMNOS}}
+{\footnotesize\ttfamily const \hyperlink{alumnos_8h_a7ecf0f1c2bcbe176c4728702b992994e}{alumno\+\_\+t} A\+L\+U\+M\+N\+OS\mbox{[}$\,$\mbox{]}}
+
+
+
+Declaracion de varaibles globales. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em A\+L\+U\+M\+N\+OS} & declaracion de un array \\
+\hline
+{\em C\+A\+N\+T\+I\+D\+A\+D\+\_\+\+A\+L\+U\+M\+N\+OS} & declaracion de un entero para determinar el tamaño del array \\
+\hline
+\end{DoxyParams}
